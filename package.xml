@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+	<name>assignment1</name>
+	<version>1.0.0</version>
+	<description>The assignment1 package</description>
+	<maintainer email="exxxxxxxx@u.nus.edu">Your Name</maintainer>
+	<license>MIT</license>
+	
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>message_generation</build_depend>   <!-- For generating custom messages -->
+    <depend>roscpp</depend>
+    <depend>rospy</depend>
+    <depend>std_msgs</depend>
+    <exec_depend>message_runtime</exec_depend>
+</package>
+
